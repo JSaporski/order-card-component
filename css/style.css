@@ -12,7 +12,9 @@ li {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   color: #a7a5bc;
@@ -40,8 +42,8 @@ ul {
 
 .wrapper-container {
   max-width: 1100px;
-  margin: 30px auto;
-  padding: 0 10px;
+  margin: 0 auto;
+  padding: 30px 10px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -108,7 +110,6 @@ ul {
 
   .main-content_info {
     padding: 30px 20px;
-    margin-bottom: 30px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
